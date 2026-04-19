@@ -1,0 +1,5 @@
+charge_range,total,churned,churn_rate
+"High ($70-100)",2683,1017,37.91
+"Low (<$35)",1731,188,10.86
+"Medium ($35-70)",1721,407,23.65
+"Very High ($100+)",908,257,28.30
