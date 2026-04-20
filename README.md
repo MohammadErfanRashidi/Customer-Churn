@@ -125,25 +125,6 @@ The trained model is served via a Streamlit application located in the `/app` di
 - **Batch CSV Upload:** Upload a CSV file containing multiple customer records. The app processes the file, appends churn probabilities and predictions, and provides a download link for the results.
 - **Clean, Responsive UI:** The interface is organized into logical sections for ease of use.
 
-## Repository Structure
-
-├── app/
-│ ├── app.py # Streamlit application entry point
-│ ├──requirements.txt # Python dependencies
-│ └── model/
-│ └── churn_logreg_model.pkl # Serialized trained model
-├── utils/
-│ ├── preprocessing.py # Reusable data preprocessing pipeline
-│ ├── feature_engineering.py # Additional feature creation for model input
-│ ├── scaler_params.json # Scaling parameters from training
-│ └── encoding_mappings.json # Label encoding category mappings
-├── notebooks/
-│ ├── data_cleaning.ipynb # Raw data inspection and cleaning
-│ ├── preprocessing.ipynb # Feature engineering and encoding
-│ └── modeling.ipynb # Model training, evaluation, and feature analysis
-├── .gitignore
-└── README.md
-
 ## Technologies Used
 
 - **Python 3.13**
